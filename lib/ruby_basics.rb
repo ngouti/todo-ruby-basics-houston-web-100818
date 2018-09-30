@@ -22,8 +22,8 @@ def return_a_value
 end
 
 def last_evaluated_value
-  puts "expert"
-
+  g = "expert"
+  return g
 end
 
 def pizza_party(z = "cheese")
